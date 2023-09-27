@@ -1,0 +1,43 @@
+<nav class="w-screen bg-dark-shade">
+  <div
+    class="container flex justify-between mx-auto items-center text-gray-400 p-5">
+    <a href="/" class="logo">Xelonsoft</a>
+    <div class="md:hidden">
+      <!-- Mobile menu button -->
+      <button
+        id="mobile-menu-button"
+        class="text-white focus:outline-none"
+        onclick="
+        toggleMobileMenu()
+        ">
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+    <ul id="mobile-menu" class="hidden md:flex md:space-x-5">
+      <li>
+        <a href="/" class="a">Home</a>
+      </li>
+      <li>
+        <a href="/" class="a">About</a>
+      </li>
+      <li>
+        <a href="/" class="a">Services</a>
+      </li>
+      <li>
+        <a href="/" class="a">Contact</a>
+      </li>
+    </ul>
+    <button class="btn hidden md:block">Call me</button>
+  </div>
+</nav>

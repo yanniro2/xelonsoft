@@ -1,0 +1,18 @@
+/* The integration's default injected base.css file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .a {
+        @apply hover:text-primary hover:font-semibold transition text-gray-400 font-medium capitalize cursor-pointer;
+    }
+
+    .btn {
+        @apply border border-primary px-6 py-3 rounded-full text-white font-medium hover:bg-primary hover:font-semibold transition hover:text-black capitalize cursor-pointer;
+    }
+    .logo{
+        @apply text-primary text-[28px] font-bold;
+    }
+}
