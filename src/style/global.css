@@ -10,9 +10,35 @@
     }
 
     .btn {
-        @apply border border-primary px-6 py-3 rounded-full text-white font-medium hover:bg-primary hover:font-semibold transition hover:text-black capitalize cursor-pointer;
+        @apply border border-primary px-6 py-3 rounded-full text-white font-medium hover:bg-primary hover:font-semibold transition hover:text-black capitalize cursor-pointer shadow drop-shadow ;
+    }
+    .btn-2 {
+        @apply border border-black px-6 py-3 rounded-full text-black font-medium bg-primary hover:font-semibold transition hover:text-white capitalize cursor-pointer  hover:bg-black shadow drop-shadow;
+    }
+
+    .btn-3 {
+        @apply border border-black px-6 py-3 rounded-full text-black font-medium bg-gray-100 hover:font-semibold transition-all hover:text-white capitalize cursor-pointer hover:bg-black shadow drop-shadow;
     }
     .logo{
         @apply text-primary text-[28px] font-bold;
     }
+    .con {
+        @apply container mx-auto h-full  ;
+    }
+
+    .sec {
+        @apply w-screen h-screen;
+    }
+    .sec-2 {
+        @apply w-screen h-screen py-[6rem];
+    }
+
+    .h1 {
+        @apply text-4xl font-bold capitalize text-center;
+    }
+
+    .p {
+        @apply text-medium-shade font-light;
+    }
+
 }

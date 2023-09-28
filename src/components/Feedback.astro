@@ -1,0 +1,33 @@
+---
+import Card from "./Card.tsx";
+import { Image } from "astro:assets";
+---
+
+<section class="sec-2 bg-slate-100 h-full">
+  <div class="con flex flex-col gap-5">
+    <div class="flex items-center flex-col gap-5">
+      <h1 class="h1">Lorem ipsum dolor sit amet.</h1>
+      <p class="p w-1/2 text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea omnis
+        ratione sequi aperiam a, in alias distinctio qui ipsum obcaecati.
+      </p>
+    </div>
+
+    <div class="w-full h-full flex items-center justify-center">
+      <div class="w-1/2 h-[80vh] flex items-end justify-end">
+        <Image
+          src={"/assets/banner-1.webp"}
+          width={1000}
+          height={1000}
+          alt="hero img"
+          class="w-auto h-full rounded-xl hover:drop-shadow hover:shadow-xl border-[5px] hover:border-white transition-all cursor-pointer scale-90 hover:scale-100 hover:border-[5px]"
+        />
+      </div>
+      <div class="w-1/2 h-full flex flex-col gap-5 bg-gray-200 rounded-xl">
+        <Card />
+        <Card />
+        <Card />
+      </div>
+    </div>
+  </div>
+</section>

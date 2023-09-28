@@ -1,11 +1,23 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Card from '../components/Card.tsx';
 import "../style/global.css"
+import Hero from "../components/Hero.astro"
+import Catelog from '../components/Catelog.astro';
+import Banner from '../components/Banner.astro';
+import Details from '../components/Details.astro';
+import Feedback from '../components/Feedback.astro';
+import News from '../components/News.astro';
 ---
 
 <Layout title="Welcome to Astro.">
-	<div class="text-primary">This is the primary color.</div>
+	<Hero/>
+	<Catelog/>
+	<Banner/>
+	<Details/>
+	<Feedback/>
+	<News/>
 </Layout>
 
 
+../components/Card.tsx

@@ -1,0 +1,36 @@
+---
+import { Image } from "astro:assets";
+---
+
+<section class="sec-2">
+  <div class="con">
+    <div class="w-full flex h-full">
+      <div
+        class="w-1/2 h-full items-center justify-center bg-gray-100 px-[5rem] rounded-xl py-[2rem]">
+        <Image
+          src={"/assets/banner-1.webp"}
+          width={1000}
+          height={1000}
+          alt="hero img"
+          class="w-full h-full object-cover rounded-xl drop-shadow shadow-xl border-[5px] border-white transition cursor-pointer hover:scale-105 hover:border-none"
+        />
+      </div>
+      <div
+        class="w-1/2 h-full flex flex-col items-start justify-center gap-5 pl-[5rem]">
+        <h1 class="h1 text-left">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+          placeat!
+        </h1>
+
+        <p class="p">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          doloribus voluptatibus illum repellendus earum totam quam fugiat
+          dolore ullam voluptate inventore saepe exercitationem quos provident
+          vitae sed, cumque nisi deleniti.
+        </p>
+
+        <button class="btn-3">Start Discovery</button>
+      </div>
+    </div>
+  </div>
+</section>

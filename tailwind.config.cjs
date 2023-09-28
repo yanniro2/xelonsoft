@@ -8,7 +8,7 @@ module.exports = {
         "primary-dark": "#000000", // Darkest Shade
         "primary-darker": "#0d0e0f", // Darker Shade
         "dark-shade": "#1a1d1f", // Dark Shade
-        "primary-medium-shade": "#272c2f", // Medium Shade
+        "medium-shade": "#272c2f", // Medium Shade
       },
     },
   },
