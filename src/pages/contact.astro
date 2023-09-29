@@ -1,0 +1,90 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "../style/global.css";
+---
+
+<Layout title="Contact page">
+  <!-- Contact Page Content -->
+  <div class="sec-2 h-full pt-[8rem]">
+    <div class="con flex flex-col w-full h-full">
+      <div class="text-center">
+        <h2 class="text-3xl font-semibold text-gray-800">Contact Us</h2>
+        <p class="mt-4 text-gray-600">
+          Have a question or interested in our services? Get in touch with us
+          today. We're here to assist you.
+        </p>
+      </div>
+
+      <div class="mt-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Contact Form -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-2xl font-semibold text-gray-800">
+              Send us a Message
+            </h3>
+            <form action="#" method="post" class="mt-6">
+              <!-- Name -->
+              <div class="mb-4">
+                <label for="name" class="block text-gray-600">Your Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="mt-2 w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-400"
+                  required
+                />
+              </div>
+
+              <!-- Email -->
+              <div class="mb-4">
+                <label for="email" class="block text-gray-600">Your Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="mt-2 w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-400"
+                  required
+                />
+              </div>
+
+              <!-- Message -->
+              <div class="mb-6">
+                <label for="message" class="block text-gray-600"
+                  >Your Message</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  class="mt-2 w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-400"
+                  required></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn-3">Send Message</button>
+            </form>
+          </div>
+
+          <!-- Contact Information -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-2xl font-semibold text-gray-800">
+              Contact Information
+            </h3>
+            <ul class="mt-6 text-gray-600">
+              <li class="mb-2">
+                <strong>Address:</strong> 123 Main Street, Cityville, 12345
+              </li>
+              <li class="mb-2">
+                <strong>Email:</strong> info@webdesignco.com
+              </li>
+              <li class="mb-2">
+                <strong>Phone:</strong> +1 (123) 456-7890
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

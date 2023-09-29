@@ -1,0 +1,160 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "../style/global.css";
+import { Image } from "astro:assets";
+---
+
+<Layout title="About page">
+  <div class="sec-2 h-full pt-[8rem]">
+    <div class="con flex flex-col w-full h-full">
+      <div class="flex items-center justify-center gap-5 flex-col">
+        <h1 class="h1">About Us</h1>
+        <p class="text-lg text-gray-600 mb-8">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
+          magnam repudiandae consequatur debitis, ex dignissimos eligendi cum,
+          ratione quia tempore rerum facilis similique fuga natus nam sunt nisi
+          quasi, eveniet pariatur aliquid quibusdam. Id error iure aliquam non,
+          possimus dolorum.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap gap-[5em]">
+        {/* 1 */}
+        <div class="w-full h-[50vh] flex gap-5">
+          <div class="w-1/2">
+            <Image
+              src={"/assets/banner-1.webp"}
+              width={1000}
+              height={1000}
+              alt="hero img"
+              class="w-full h-full object-cover rounded-xl drop-shadow shadow-xl border-[5px] border-white transition cursor-pointer hover:scale-105 hover:border-none"
+            />
+          </div>
+          <div class="w-1/2 p-5">
+            <h2 class="text-xl font-semibold mb-4">Our Mission</h2>
+            <p class="text-base text-gray-600 mb-6">
+              Our mission is to restore the functionality and performance of
+              your devices, ensuring that you can stay connected and productive
+              in today's digital world. We strive to exceed customer
+              expectations by delivering fast and reliable repair services while
+              maintaining the highest standards of quality.
+            </p>
+          </div>
+        </div>
+
+        {/* 2 */}
+        <div class="w-full h-[50vh] flex gap-5 reverse">
+          <div class="w-1/2">
+            <Image
+              src={"/assets/banner-1.webp"}
+              width={1000}
+              height={1000}
+              alt="hero img"
+              class="w-full h-full object-cover rounded-xl drop-shadow shadow-xl border-[5px] border-white transition cursor-pointer hover:scale-105 hover:border-none"
+            />
+          </div>
+          <div class="w-1/2 p-5">
+            <h2 class="text-xl font-semibold mb-4">Skilled Technicians</h2>
+            <p class="text-base text-gray-600 mb-6">
+              Our team of skilled technicians is the backbone of our company.
+              They are highly trained and knowledgeable, equipped with the
+              latest tools and techniques to diagnose and repair a wide range of
+              technical issues. From cracked screens and hardware failures to
+              software glitches, our technicians have the expertise to handle it
+              all.
+            </p>
+          </div>
+        </div>
+        {/* 3 */}
+        <div class="w-full h-[50vh] flex gap-5">
+          <div class="w-1/2">
+            <Image
+              src={"/assets/banner-1.webp"}
+              width={1000}
+              height={1000}
+              alt="hero img"
+              class="w-full h-full object-cover rounded-xl drop-shadow shadow-xl border-[5px] border-white transition cursor-pointer hover:scale-105 hover:border-none"
+            />
+          </div>
+          <div class="w-1/2 p-5">
+            <h2 class="text-xl font-semibold mb-4">Quality Repairs</h2>
+            <p class="text-base text-gray-600 mb-6">
+              We understand the importance of your mobile phones, laptops, and
+              computers, which is why we use only top-quality replacement parts
+              for all our repairs. Our commitment to quality ensures that your
+              devices are restored to optimal functionality, providing you with
+              a seamless user experience.
+            </p>
+          </div>
+        </div>
+        {/* 4 */}
+        <div class="w-full h-[50vh] flex gap-5 reverse">
+          <div class="w-1/2">
+            <Image
+              src={"/assets/banner-1.webp"}
+              width={1000}
+              height={1000}
+              alt="hero img"
+              class="w-full h-full object-cover rounded-xl drop-shadow shadow-xl border-[5px] border-white transition cursor-pointer hover:scale-105 hover:border-none"
+            />
+          </div>
+          <div class="w-1/2 p-5">
+            <h2 class="text-xl font-semibold mb-4">Customer Satisfaction</h2>
+            <p class="text-base text-gray-600 mb-6">
+              Customer satisfaction is our utmost priority. We believe in
+              building long-lasting relationships with our customers by
+              providing personalized attention, transparent communication, and
+              excellent customer service. We listen to your concerns, answer
+              your questions, and work diligently to address all your repair
+              needs.
+            </p>
+          </div>
+        </div>
+        {/* 5 */}
+        <div class="w-full h-[50vh] flex gap-5">
+          <div class="w-1/2">
+            <Image
+              src={"/assets/banner-1.webp"}
+              width={1000}
+              height={1000}
+              alt="hero img"
+              class="w-full h-full object-cover rounded-xl drop-shadow shadow-xl border-[5px] border-white transition cursor-pointer hover:scale-105 hover:border-none"
+            />
+          </div>
+          <div class="w-1/2 p-5">
+            <h2 class="text-xl font-semibold mb-4">Convenient Services</h2>
+            <p class="text-base text-gray-600 mb-6">
+              We know that your time is valuable, so we strive to make the
+              repair process as convenient as possible. You can visit our repair
+              center, or if preferred, take advantage of our pickup and delivery
+              services. We aim to minimize disruptions to your daily routine
+              while ensuring efficient and reliable repairs.
+            </p>
+          </div>
+        </div>
+
+        {/* 6 */}
+        <div class="w-full h-[50vh] flex gap-5 reverse">
+          <div class="w-1/2">
+            <Image
+              src={"/assets/banner-1.webp"}
+              width={1000}
+              height={1000}
+              alt="hero img"
+              class="w-full h-full object-cover rounded-xl drop-shadow shadow-xl border-[5px] border-white transition cursor-pointer hover:scale-105 hover:border-none"
+            />
+          </div>
+          <div class="w-1/2 p-5">
+            <h2 class="text-xl font-semibold mb-4">Contact Us</h2>
+            <p class="text-base text-gray-600 mb-6">
+              We are here to assist you with all your repair needs. Whether you
+              have a cracked screen, a malfunctioning keyboard, or a
+              virus-infected computer, our team is ready to help. Get in touch
+              with us today and let our experts take care of your technology.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

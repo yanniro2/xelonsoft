@@ -19,6 +19,10 @@
     .btn-3 {
         @apply border border-black px-6 py-3 rounded-full text-black font-medium bg-gray-100 hover:font-semibold transition-all hover:text-white capitalize cursor-pointer hover:bg-black shadow drop-shadow;
     }
+
+    .btn-4 {
+        @apply underline capitalize font-medium  hover:text-primary transition-all;
+    }
     .logo{
         @apply text-primary text-[28px] font-bold;
     }
@@ -39,6 +43,10 @@
 
     .p {
         @apply text-medium-shade font-light;
+    }
+
+    .reverse {
+        @apply flex-row-reverse;
     }
 
 }

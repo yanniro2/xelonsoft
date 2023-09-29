@@ -4,7 +4,7 @@ interface Props {
   name: string;
 }
 
-const Category: React.FC<Props> = ({ name }) => {
+const Card: React.FC<Props> = ({ name }) => {
   return (
     <div className=" p-8 hover:rounded-xl cursor-pointer hover:bg-primary hover:scale-105 transition-all min-w-min flex flex-col items-start gap-2 hover:drop-shadow  hover:border-dark-shade group  w-full justify-evenly even:border-[1px] even:border-y-gray-500 ">
       <div className="flex gap-1 flex-col items-start">
@@ -20,4 +20,4 @@ const Category: React.FC<Props> = ({ name }) => {
   );
 };
 
-export default Category;
+export default Card;
