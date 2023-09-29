@@ -49,4 +49,8 @@
         @apply flex-row-reverse;
     }
 
+    .cursor {
+        @apply cursor-pointer hover:scale-105 hover:rotate-3 transition-all scale-95;
+    }
+
 }
