@@ -1,4 +1,7 @@
 import React from "react";
+// import pkg from "react-icons/fa6/";
+// const { FaStar, FaStarHalf } = pkg;
+
 import { FaStar, FaStarHalf } from "react-icons/fa6";
 function Review() {
   return (
