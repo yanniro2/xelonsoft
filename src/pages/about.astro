@@ -9,7 +9,7 @@ import { Image } from "astro:assets";
     <div class="con flex flex-col w-full h-full">
       <div class="flex items-center justify-center gap-5 flex-col">
         <h1 class="h1">About Us</h1>
-        <p class="text-lg text-gray-600 mb-8">
+        <p class="text-lg text-gray-600 mb-8 lg:text-left text-center">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
           magnam repudiandae consequatur debitis, ex dignissimos eligendi cum,
           ratione quia tempore rerum facilis similique fuga natus nam sunt nisi
@@ -20,8 +20,8 @@ import { Image } from "astro:assets";
 
       <div class="flex flex-wrap gap-[5em]">
         {/* 1 */}
-        <div class="w-full h-[50vh] flex gap-5">
-          <div class="w-1/2">
+        <div class="w-full lg:h-[50vh] flex gap-5 lg:flex-row flex-col h-full">
+          <div class="lg:w-1/2 w-full">
             <Image
               src={"/assets/banner-1.webp"}
               width={1000}
@@ -30,7 +30,7 @@ import { Image } from "astro:assets";
               class="w-full h-full object-cover rounded-xl drop-shadow shadow-xl border-[5px] border-white transition cursor-pointer hover:scale-105 hover:border-none"
             />
           </div>
-          <div class="w-1/2 p-5">
+          <div class="lg:w-1/2 p-5 w-full">
             <h2 class="text-xl font-semibold mb-4">Our Mission</h2>
             <p class="text-base text-gray-600 mb-6">
               Our mission is to restore the functionality and performance of
@@ -43,8 +43,8 @@ import { Image } from "astro:assets";
         </div>
 
         {/* 2 */}
-        <div class="w-full h-[50vh] flex gap-5 reverse">
-          <div class="w-1/2">
+        <div class="w-full lg:h-[50vh] flex gap-5 lg:flex-row flex-col h-full lg:reverse">
+          <div class="lg:w-1/2 w-full">
             <Image
               src={"/assets/banner-1.webp"}
               width={1000}
@@ -53,7 +53,7 @@ import { Image } from "astro:assets";
               class="w-full h-full object-cover rounded-xl drop-shadow shadow-xl border-[5px] border-white transition cursor-pointer hover:scale-105 hover:border-none"
             />
           </div>
-          <div class="w-1/2 p-5">
+          <div class="lg:w-1/2 p-5 w-full">
             <h2 class="text-xl font-semibold mb-4">Skilled Technicians</h2>
             <p class="text-base text-gray-600 mb-6">
               Our team of skilled technicians is the backbone of our company.
@@ -66,8 +66,8 @@ import { Image } from "astro:assets";
           </div>
         </div>
         {/* 3 */}
-        <div class="w-full h-[50vh] flex gap-5">
-          <div class="w-1/2">
+        <div class="w-full lg:h-[50vh] flex gap-5 lg:flex-row flex-col h-full">
+          <div class="lg:w-1/2 w-full">
             <Image
               src={"/assets/banner-1.webp"}
               width={1000}
@@ -76,7 +76,7 @@ import { Image } from "astro:assets";
               class="w-full h-full object-cover rounded-xl drop-shadow shadow-xl border-[5px] border-white transition cursor-pointer hover:scale-105 hover:border-none"
             />
           </div>
-          <div class="w-1/2 p-5">
+          <div class="lg:w-1/2 p-5 w-full">
             <h2 class="text-xl font-semibold mb-4">Quality Repairs</h2>
             <p class="text-base text-gray-600 mb-6">
               We understand the importance of your mobile phones, laptops, and
@@ -88,8 +88,8 @@ import { Image } from "astro:assets";
           </div>
         </div>
         {/* 4 */}
-        <div class="w-full h-[50vh] flex gap-5 reverse">
-          <div class="w-1/2">
+        <div class="w-full lg:h-[50vh] flex gap-5 lg:flex-row flex-col h-full lg:reverse">
+          <div class="lg:w-1/2 w-full">
             <Image
               src={"/assets/banner-1.webp"}
               width={1000}
@@ -98,7 +98,7 @@ import { Image } from "astro:assets";
               class="w-full h-full object-cover rounded-xl drop-shadow shadow-xl border-[5px] border-white transition cursor-pointer hover:scale-105 hover:border-none"
             />
           </div>
-          <div class="w-1/2 p-5">
+          <div class="lg:w-1/2 p-5 w-full">
             <h2 class="text-xl font-semibold mb-4">Customer Satisfaction</h2>
             <p class="text-base text-gray-600 mb-6">
               Customer satisfaction is our utmost priority. We believe in
@@ -111,8 +111,8 @@ import { Image } from "astro:assets";
           </div>
         </div>
         {/* 5 */}
-        <div class="w-full h-[50vh] flex gap-5">
-          <div class="w-1/2">
+        <div class="w-full lg:h-[50vh] flex gap-5 lg:flex-row flex-col h-full">
+          <div class="lg:w-1/2 w-full">
             <Image
               src={"/assets/banner-1.webp"}
               width={1000}
@@ -121,7 +121,7 @@ import { Image } from "astro:assets";
               class="w-full h-full object-cover rounded-xl drop-shadow shadow-xl border-[5px] border-white transition cursor-pointer hover:scale-105 hover:border-none"
             />
           </div>
-          <div class="w-1/2 p-5">
+          <div class="lg:w-1/2 p-5 w-full">
             <h2 class="text-xl font-semibold mb-4">Convenient Services</h2>
             <p class="text-base text-gray-600 mb-6">
               We know that your time is valuable, so we strive to make the
@@ -134,8 +134,8 @@ import { Image } from "astro:assets";
         </div>
 
         {/* 6 */}
-        <div class="w-full h-[50vh] flex gap-5 reverse">
-          <div class="w-1/2">
+       <div class="w-full lg:h-[50vh] flex gap-5 lg:flex-row flex-col h-full lg:reverse">
+          <div class="lg:w-1/2 w-full">
             <Image
               src={"/assets/banner-1.webp"}
               width={1000}
@@ -144,7 +144,7 @@ import { Image } from "astro:assets";
               class="w-full h-full object-cover rounded-xl drop-shadow shadow-xl border-[5px] border-white transition cursor-pointer hover:scale-105 hover:border-none"
             />
           </div>
-          <div class="w-1/2 p-5">
+          <div class="lg:w-1/2 p-5 w-full">
             <h2 class="text-xl font-semibold mb-4">Contact Us</h2>
             <p class="text-base text-gray-600 mb-6">
               We are here to assist you with all your repair needs. Whether you

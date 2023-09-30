@@ -65,24 +65,26 @@ function Navigation() {
 
         {/* Mobile Navigation */}
         {toggle && (
-          <ul className="md:hidden">
-            <li>
-              <a href="/" className="a">
+          <ul
+            className="md:hidden fixed w-screen h-screen z-[100] top-0 bottom-0 left-0 right-0   flex items-center justify-evenly flex-col backdrop-blur  "
+            onClick={toggleMobileMenu}>
+            <li className="w-3/4 flex items-center justify-center text-center">
+              <a href="/" className="a text-black bg-white p-3 w-full">
                 Home
               </a>
             </li>
-            <li>
-              <a href="/about" className="a">
+            <li className="w-3/4 flex items-center justify-center text-center">
+              <a href="/about" className="a text-black bg-white p-3 w-full">
                 About
               </a>
             </li>
-            <li>
-              <a href="/service" className="a">
+            <li className="w-3/4 flex items-center justify-center text-center">
+              <a href="/service" className="a text-black bg-white p-3 w-full">
                 Services
               </a>
             </li>
-            <li>
-              <a href="/contact" className="a">
+            <li className="w-3/4 flex items-center justify-center text-center">
+              <a href="/contact" className="a text-black bg-white p-3 w-full">
                 Contact
               </a>
             </li>
