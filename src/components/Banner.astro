@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets";
+// import { Image } from "astro:assets";
 ---
 
 <section class="sec-2">
@@ -7,13 +7,8 @@ import { Image } from "astro:assets";
     <div class="w-full flex h-full lg:flex-row flex-col">
       <div
         class="lg:w-1/2 lg:h-full items-center justify-center bg-gray-100 px-[5rem] rounded-xl py-[2rem] w-full h-1/2">
-        <Image
-          src={"/assets/banner-1.webp"}
-          width={1000}
-          height={1000}
-          alt="hero img"
-          class="w-full h-full object-cover rounded-xl drop-shadow shadow-xl border-[5px] border-white transition cursor-pointer hover:scale-105 hover:border-none"
-        />
+
+        <img src="/assets/banner-1.webp" alt="hero img"   class="w-auto h-full object-cover rounded-xl drop-shadow shadow-xl border-[5px] border-white transition cursor-pointer hover:scale-105 hover:border-none" loading="lazy" decoding="async">
       </div>
       <div
         class="lg:w-1/2 lg:h-full flex flex-col items-center justify-center gap-5 lg:pl-[5rem] text-center lg:text-left lg:items-start pt-[1rem] lg:pt-0">
