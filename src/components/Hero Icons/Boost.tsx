@@ -9,7 +9,7 @@ export default function Boost() {
 
       <div className="flex flex-col items-start justify-center h-full w-full">
         <p className="p w-max text-gray-500 capitalize">Boost your business</p>
-        <h1 className="h1">438</h1>
+        <h3 className="h1">438</h3>
       </div>
     </div>
   );
