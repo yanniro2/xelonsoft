@@ -8,8 +8,8 @@ export default function Boost() {
       </div>
 
       <div className="flex flex-col items-start justify-center h-full w-full">
-        <p className="p w-max text-gray-500 capitalize">Boost your business</p>
         <h3 className="h1">438</h3>
+        <p className="p w-max text-gray-500 capitalize">Boost your business</p>
       </div>
     </div>
   );

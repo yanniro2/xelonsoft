@@ -17,7 +17,7 @@ interface Props {
       </div>
 
       <div className="flex gap-1 flex-col items-start p-3 overflow-hidden h-1/3">
-        <h3 className="text-xl font-medium">Lorem ipsum dolor sit amet.</h3>
+        <h2 className="text-xl font-medium">Lorem ipsum dolor sit amet.</h2>
         <p className="p">
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         </p>
