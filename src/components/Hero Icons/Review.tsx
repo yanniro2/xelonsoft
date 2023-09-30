@@ -5,7 +5,7 @@ import React from "react";
 import { FaStar, FaStarHalf } from "react-icons/fa6";
 function Review() {
   return (
-    <div className="bg-black w-[20rem] h-[15rem]  drop-shadow-xl shadow-2xl rounded-xl flex absolute items-start justify-center p-5 flex-col gap-5 bottom-5 right-0 z-30 cursor cursor">
+    <div className="bg-black w-[20rem] h-[15rem]  drop-shadow-xl shadow-2xl rounded-xl flex absolute items-start justify-center p-5 flex-col gap-5 lg:bottom-5 lg:right-0 z-30 cursor cursor lg:scale-100 scale-50 -bottom-[4rem] -right-[4rem]">
       <p className="p text-white w-full">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quo
         quas aspernatur doloremque reiciendis! Dolore quasi culpa praesentium

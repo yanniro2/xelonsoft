@@ -6,14 +6,14 @@ import Chart from "./Hero Icons/Chart.tsx";
 ---
 
 <section class="sec bg-white text-black gap-[4rem] relative">
-  <div class="con flex">
-    <div class="w-1/2 h-full flex items-center justify-start pr-[4rem]">
+  <div class="con flex lg:flex-row flex-col-reverse">
+    <div class="lg:w-1/2 h-full flex items-center justify-start lg:pr-[3rem] w-full pt-[4rem] pb-[2rem] lg:pb-0">
       <div class="flex flex-col items-start gap-5">
         <div class="flex items-center gap-2">
           <div class="w-1 h-5 bg-primary"></div>
           <p class="font-light">Lorem ipsum dolor sit amet.</p>
         </div>
-        <h1 class="text-5xl font-bold leading-10">
+        <h1 class="text-5xl font-bold lg:leading-10">
           <span class="bg-primary">Lorem ipsum dolor,</span> sit amet consectetur adipisicing elit. Doloremque
           enim consequatur
         </h1>
@@ -23,7 +23,7 @@ import Chart from "./Hero Icons/Chart.tsx";
           pariatur inventore.
         </p>
 
-        <div class="flex items-center gap-5">
+        <div class="flex items-center gap-5 flex-col lg:flex-row">
            <button class="btn-2">click me</button>
            <button class="btn-4">learn more</button>
         </div>
@@ -31,15 +31,15 @@ import Chart from "./Hero Icons/Chart.tsx";
       </div>
     </div>
 
-    <div class="w-1/2 h-full flex items-center justify-center relative">
+    <div class="lg:w-1/2 h-full flex items-center justify-center relative w-full ">
       <Image
         src={"/assets/hero-img.webp"}
         width={675}
         height={1000}
         alt="hero img"
-        class="w-auto h-full object-contain scale-75 pt-[4rem] drop-shadow-2xl z-20"
+        class="w-auto h-full object-contain lg:scale-75 pt-[4rem] drop-shadow-2xl z-20 "
       />
-      <div class="bg-primary w-2/3 h-1/2 absolute z-[5] bottom-[6rem] rounded-t-full left-1/2 -translate-x-1/2"></div>
+      <div class="bg-primary lg:w-2/3 lg:h-1/2 absolute z-[5] lg:bottom-[6rem] rounded-t-full left-1/2 -translate-x-1/2 w-full h-3/4 bottom-0"></div>
       <Review/>
       <Boost/>
       <Chart/>

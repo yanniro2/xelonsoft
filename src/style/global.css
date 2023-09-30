@@ -27,14 +27,14 @@
         @apply text-primary text-[28px] font-bold;
     }
     .con {
-        @apply container mx-auto h-full  ;
+        @apply container mx-auto h-full px-5;
     }
 
     .sec {
-        @apply w-screen h-screen;
+        @apply lg:w-screen lg:h-screen  w-full h-full lg:p-0 pt-[3rem];
     }
     .sec-2 {
-        @apply w-screen h-screen py-[6rem];
+        @apply lg:w-screen lg:h-screen lg:py-[6rem] w-full h-full py-[3rem];
     }
 
     .h1 {
@@ -50,7 +50,7 @@
     }
 
     .cursor {
-        @apply cursor-pointer hover:scale-105 hover:rotate-3 transition-all scale-95;
+        @apply cursor-pointer hover:scale-[0.6] hover:rotate-3 transition-all scale-75  lg:hover:scale-105;
     }
 
 }

@@ -4,9 +4,11 @@ interface Props {
   name: string;
 }
 
-const Category: React.FC<Props> = ({ name }) => {
+// const Category: React.FC<Props> = ({ name }) => {
+
+function Category(){
   return (
-    <div className="bg-white p-5 rounded-xl border border-none cursor-pointer hover:bg-primary hover:scale-105 transition min-w-min flex flex-col items-start gap-2 hover:drop-shadow  hover:border-dark-shade group h-[20rem] w-1/4 justify-evenly">
+    <div className="bg-white p-5 rounded-xl border border-none cursor-pointer hover:bg-primary hover:scale-105 transition min-w-min flex flex-col items-start gap-2 hover:drop-shadow  hover:border-dark-shade group lg:h-[20rem] lg:w-1/4 justify-evenly">
       <div className="bg-primary w-[3rem] h-[3rem] rounded-full flex items-center justify-center text-white text-2xl group-hover:bg-white group-hover:text-primary transition ">
         <ImGlass />
       </div>

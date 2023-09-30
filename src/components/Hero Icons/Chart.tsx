@@ -2,7 +2,7 @@ import React from "react";
 import { HiChartBar } from "react-icons/hi";
 function Chart() {
   return (
-    <div className=" w-max h-max bg-primary drop-shadow-xl shadow-2xl rounded-xl flex  absolute items-center justify-center gap-5 p-1 top-[8rem] right-0 z-30 cursor">
+    <div className=" w-max h-max bg-primary drop-shadow-xl shadow-2xl rounded-xl flex  absolute items-center justify-center gap-5 p-1 lg:top-[8rem] -right-[4rem] z-30 cursor lg:scale-90 scale-50 top-[4rem]">
       <div className="bg-white w-[5rem] h-[5rem] rounded-xl flex items-center justify-center p-3">
         <HiChartBar className="text-4xl text-primary" />
       </div>
