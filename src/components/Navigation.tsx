@@ -20,7 +20,8 @@ function Navigation() {
           <button
             id="mobile-menu-button"
             className="text-white focus:outline-none"
-            onClick={toggleMobileMenu}>
+            onClick={toggleMobileMenu}
+            aria-label="Open Menu">
             <svg
               className="w-6 h-6"
               fill="none"
