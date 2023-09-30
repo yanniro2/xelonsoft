@@ -13,7 +13,7 @@ function Category(){
         <ImGlass />
       </div>
       <div>
-        <h3 className="text-xl font-medium">Lorem ipsum dolor sit amet.</h3>
+        <h2 className="text-xl font-medium">Lorem ipsum dolor sit amet.</h2>
         <p className="p">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
           dolorem alias rerum repudiandae dolores cumque amet nihil vitae
