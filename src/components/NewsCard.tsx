@@ -1,18 +1,22 @@
 import React from "react";
+import { Image } from "astro:assets";
 import "../style/global.css";
 interface Props {
   name: string;
 }
 
 // const NewsCard: React.FC<Props> = ({ name }) => {
-  function NewsCard(){
+function NewsCard() {
   return (
     <div className=" cursor-pointer  transition-all min-w-min flex flex-col gap-2  group  lg:w-1/3 lg:h-2/3 justify-between border  bg-white rounded hover:drop-shadow-lg hover:border-[5px]  hover:bg-primary overflow-hidden border-white drop-shadow w-full h-1/3">
       <div className="w-full h-2/3 flex">
         <img
-          src={"/assets/banner-1.webp"}
+          src="/assets/banner-1-medium.webp"
           alt="newcard img"
           className="w-full h-full object-cover "
+          sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          loading="lazy"
+          decoding="async"
         />
       </div>
 
