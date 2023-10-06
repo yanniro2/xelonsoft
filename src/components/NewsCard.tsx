@@ -11,7 +11,7 @@ interface Props {
       <div className="w-full h-2/3 flex">
         <img
           src={"/assets/banner-1.webp"}
-          alt="hero img"
+          alt="newcard img"
           className="w-full h-full object-cover "
         />
       </div>
