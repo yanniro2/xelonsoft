@@ -10,7 +10,8 @@ Welcome to the Astro 3.0 Landing page! This project aims to create a high-perfor
 #Video 
 
 [![Watch the video](https://img.youtube.com/vi/_HsAwZBsmB4/0.jpg)](https://youtu.be/_HsAwZBsmB4)
-click to watch
+
+**click to watch**
 
 ## Google PageSpeed Insights
 
