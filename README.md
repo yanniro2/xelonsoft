@@ -6,7 +6,7 @@ Welcome to the Astro 3.0 Landing page! This project aims to create a high-perfor
 ## Project Sample
 ![Project Sample](/images/sample.png)
 
-
+![Video](https://youtu.be/_HsAwZBsmB4?si=I_2-gE1lRRNSVm-Q)
 ## Google PageSpeed Insights
 
 ![Seo Sample](/images/seo.png)
